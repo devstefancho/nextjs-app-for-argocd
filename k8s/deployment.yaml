@@ -17,5 +17,6 @@ spec:
       containers:
         - name: nextjs-app
           image: yourusername/nextjs-app:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
